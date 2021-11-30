@@ -7,7 +7,6 @@ def do_it():
     n = int(input("Введите длину списка:\n"))
     a = []
     if n >= 0:                                      # Проверка
-        i = 0
         for i in range(n):
             a.append(randint(-100, 100))            # Создание списка длины N
         print(a)                                    # Вывод до изменений
