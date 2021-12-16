@@ -16,5 +16,3 @@ def do_it():
         b.append(j) if j > 0 else c.append(j) if j < 0 else a.pop(j)        # Фильтр чисел
     print(b)                                                                # Выводы
     print(c)
-
-do_it()
