@@ -41,10 +41,30 @@ sxth = '''
 3) Дан список размера N. Осуществить циклический сдвиг элементов списка вправо на
    одну позицию (при этом А1 перейдет в А2, А2 — в A3,..., АN— в А1.
 '''
+seven = '''
+7.
+1)  Дана строка. Подсчитать количество содержащихся в ней прописных латинских
+    букв.
+
+2)  Дана строка-предложение на русском языке. Подсчитать количество содержащихся
+    в строке гласных букв.
+'''
+eight = '''
+8.
+
+'''
+nine = '''
+9.
+
+'''
+ten = '''
+10.
+
+'''
 
 needToPrint = input("Вывести ли описание всех заданий?(Y / N(Или любой другой символ)\n")
 if needToPrint.lower() == 'y':
-    print('Список ПЗ:\n' + scnd + thrd + frth + ffth + sxth)
+    print('Список ПЗ:\n' + scnd + thrd + frth + ffth + sxth + seven + eight + nine + ten)
 
 
 while True:
@@ -64,6 +84,18 @@ while True:
     elif number == '6':
         print(sxth)
         choose6.chooseDo()
+    elif number == '7':
+        print(sxth)
+        choose7.chooseDo()
+    elif number == '8':
+        print(sxth)
+        choose8.chooseDo()
+    elif number == '9':
+        print(sxth)
+        choose9.chooseDo()
+    elif number == '10':
+        print(sxth)
+        choose10.chooseDo()
     else:
         print("Ошибка!")
     k = input("Хотите проверить код ещё раз? (Y / N(Или любой другой символ))\n")
