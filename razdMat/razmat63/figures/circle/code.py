@@ -1,9 +1,9 @@
 import math
 
-default_radius = 5
+_default_radius = 5
 
 
-def circle_perimetr(rad=default_radius):
+def circle_perimetr(rad=_default_radius):
     return 2 * rad * math.pi
 
 
