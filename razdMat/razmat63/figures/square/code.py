@@ -1,9 +1,9 @@
-a = 15
+_a = 15
 
 
-def square_perimetr(aa=a):
+def square_perimetr(aa=_a):
     return aa * 4
 
 
-def square_area(aa=a):
+def square_area(aa=_a):
     return aa**2
