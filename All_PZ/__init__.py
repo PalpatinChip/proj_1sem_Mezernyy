@@ -7,4 +7,7 @@ from All_PZ.PZ_7 import *
 from All_PZ.PZ_8 import *
 from All_PZ.PZ_9 import *
 from All_PZ.PZ_10 import *
+from All_PZ.PZ_13 import *
+from All_PZ.PZ_14 import *
+from All_PZ.PZ_15 import *
 
