@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="780cc30a-d917-4bb8-a43d-f7fde2e2d4ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_12/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_13/PZ_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_13/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_14/PZ_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_14/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_15/PZ_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_15/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_16/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proj_1sem_Mezernyy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proj_1sem_Mezernyy.iml" afterDir="false" />
+    <list default="true" id="780cc30a-d917-4bb8-a43d-f7fde2e2d4ed" name="Changes" comment="Completed some tasks">
+      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_16/zapol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_14/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_15/PZ_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_15/PZ_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_16/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_16/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All_PZ/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -43,18 +42,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21dclPAAaOWPe0FF5wYOEU3zb7u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/chell/PycharmProjects/proj_1sem_Mezernyy/All_PZ",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chell/PycharmProjects/proj_1sem_Mezernyy/All_PZ&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/All_PZ" />
@@ -66,28 +68,7 @@
       <recent name="$PROJECT_DIR$/All_PZ" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="PZ_10_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="proj_1sem_Mezernyy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All_PZ/PZ_10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All_PZ/PZ_10/PZ_10_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="PZ_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proj_1sem_Mezernyy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +132,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj_1sem_Mezernyy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All_PZ/PZ_16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All_PZ/PZ_16/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proj_1sem_Mezernyy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.PZ_15" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.PZ_14" />
         <item itemvalue="Python.PZ_13" />
-        <item itemvalue="Python.PZ_10_2" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +190,14 @@
       <option name="presentableId" value="Default" />
       <updated>1638274562114</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed some tasks">
+      <created>1655297753905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655297753905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,5 +210,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed some tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed some tasks" />
   </component>
 </project>
