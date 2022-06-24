@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780cc30a-d917-4bb8-a43d-f7fde2e2d4ed" name="Changes" comment="Completed all possible tasks">
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_12/PZ_12_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_12/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_16/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_PZ/PZ_16/torgFirm.db" beforeDir="false" afterPath="$PROJECT_DIR$/All_PZ/PZ_16/torgFirm.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/All_PZ" />
@@ -56,7 +63,7 @@
       <recent name="$PROJECT_DIR$/All_PZ" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_12_2">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="PZ_12_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proj_1sem_Mezernyy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,9 +134,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All_PZ/PZ_16" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All_PZ/PZ_16/main.py" />
@@ -164,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.PZ_12_2" />
         <item itemvalue="Python.PZ_12_1" />
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.PZ_15" />
         <item itemvalue="Python.main" />
       </list>
@@ -202,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655383948204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed all possible tasks">
+      <created>1656072502078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656072502078</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed all possible tasks">
+      <created>1656072639914</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656072639914</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

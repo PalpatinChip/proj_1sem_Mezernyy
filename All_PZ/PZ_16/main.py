@@ -20,7 +20,7 @@ class Main(tk.Frame):
         self.db = db
         self.view_records()
 
-    def init_main(self):
+    def init_main(self):    # Main window
         toolbar = tk.Frame(bg='#a0dea0', bd=4)
         toolbar.pack(side=tk.TOP, fill=tk.X)
 
@@ -44,7 +44,7 @@ class Main(tk.Frame):
                                 bd=0, compound=tk.TOP)
         btn_refresh.pack(side=tk.LEFT)
 
-        self.tree = ttk.Treeview(self, columns=(
+        self.tree = ttk.Treeview(self, columns=(        # Tree making
             'id', 'data', 'tovar', 'cost', 'skidka', 'filial', 'manager'), height=15,
                                  show='headings')
 
@@ -66,29 +66,29 @@ class Main(tk.Frame):
 
         self.tree.pack(side=tk.BOTTOM)
 
-    def records(self, data, tovar, cost, skidka, filial, manager):
+    def records(self, data, tovar, cost, skidka, filial, manager):  # inserting data
         self.db.insert_data(data, tovar, cost, skidka, filial, manager)
         self.view_records()
 
-    def update_record(self, data, tovar, cost, skidka, filial, manager):
+    def update_record(self, data, tovar, cost, skidka, filial, manager):        # updating data
         self.db.cur.execute("""UPDATE tovarDB SET data=?, tovar=?, cost=?, skidka=?, filial=?, manager=? 
         WHERE id=?""", (data, tovar.lower(), cost, skidka, filial.lower(), manager.lower(),
                         self.tree.set(self.tree.selection()[0], '#1')))
         self.db.con.commit()
         self.view_records()
 
-    def view_records(self):
+    def view_records(self):             # Watch data
         self.db.cur.execute("""SELECT * FROM tovarDB""")
         [self.tree.delete(i) for i in self.tree.get_children()]
         [self.tree.insert('', 'end', values=row) for row in self.db.cur.fetchall()]
 
-    def delete_records(self):
+    def delete_records(self):       # delete data
         for selection_item in self.tree.selection():
             self.db.cur.execute("""DELETE FROM tovarDB WHERE id=?""", (self.tree.set(selection_item, '#1'),))
         self.db.con.commit()
         self.view_records()
 
-    def search_records(self, tovar_name):
+    def search_records(self, tovar_name):   # search data
         self.db.cur.execute(f"""SELECT * FROM tovarDB WHERE tovar LIKE '%{tovar_name.lower()}%'""")
         [self.tree.delete(i) for i in self.tree.get_children()]
         [self.tree.insert('', 'end', values=row) for row in self.db.cur.fetchall()]
@@ -123,7 +123,7 @@ class Child(tk.Toplevel):
         self.init_child()
         self.view = appp
 
-    def init_child(self):
+    def init_child(self):       # adding new
         self.title('Добавить запись')
         self.geometry('500x300+400+300')
         self.resizable(False, False)
@@ -174,7 +174,7 @@ class Child(tk.Toplevel):
         self.focus_set()
 
 
-class Update(Child):
+class Update(Child):            # Update class window
     def __init__(self):
         super().__init__(root, app)
         self.init_edit()
@@ -193,7 +193,7 @@ class Update(Child):
         self.btn_ok.destroy()
 
 
-class Search(tk.Toplevel):
+class Search(tk.Toplevel):      # Search window
     def __init__(self):
         super().__init__()
         self.entry_search = None
@@ -220,11 +220,12 @@ class Search(tk.Toplevel):
         btn_search.bind('<Button-1>', lambda event: self.destroy(), add='+')
 
 
-class DB:
+class DB:       # working with db
     def __init__(self):
         with sq.connect('torgFirm.db') as self.con:
             self.cur = self.con.cursor()
-            self.cur.execute("""CREATE TABLE IF NOT EXISTS tovarDB (
+            # create new DB
+            self.cur.execute("""CREATE TABLE IF NOT EXISTS tovarDB (     
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 data DATE NOT NULL,
                 tovar TEXT NOT NULL,
@@ -234,7 +235,7 @@ class DB:
                 manager TEXT NOT NULL
                 )""")
 
-    def insert_data(self, data, tovar, cost, skidka, filial, manager):
+    def insert_data(self, data, tovar, cost, skidka, filial, manager):  # inserting data
         self.cur.execute(
             """INSERT INTO tovarDB (data, tovar, cost, skidka, filial, manager) VALUES (?, 
             ?, ?, ?, ?, ?)""",
@@ -242,7 +243,7 @@ class DB:
         self.con.commit()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":      # Starting
     root = tk.Tk()
     db = DB()
     app = Main(root)

@@ -2,16 +2,18 @@ import tkinter as tk
 from tkinter import ttk
 
 
-class Main(tk.Frame):                                                                                                       # Класс окна
+class Main(tk.Frame):  # Класс окна
     def __init__(self, roottt):
         super().__init__(roottt)
-        self.label_list = ["University", "Institute", "Branch", "Degree", "Average CPI", "Experience", "Your website "      # Список лэйблов
+        self.label_list = ["University", "Institute", "Branch", "Degree", "Average CPI", "Experience", "Your website "
                                                                                                        "or blog"]
+        # Список лэйблов
         self.yy = 130
 
         tk.Label(text="Registration details", bg="#3766D5", fg="white", font=("Arial", 24)).place(x=20, y=20)
         for i in self.label_list:
-            tk.Label(text=i + " :", bg="#3766D5", fg="white", font=('comforta', 16)).place(x=350, y=self.yy, anchor="e")    # Создание лэйблов
+            tk.Label(text=i + " :", bg="#3766D5", fg="white", font=('comforta', 16)).place(x=350, y=self.yy, anchor="e")
+            # Создание лэйблов
             self.yy += 50
 
         tk.Entry(bg='white', fg='black', font=('comforta', 15), borderwidth=1).place(x=350, y=120,
@@ -26,7 +28,7 @@ class Main(tk.Frame):                                                           
         aboba2.current(0)
         aboba2.place(x=350, y=270, width=110, height=25)
 
-        rad_var = tk.IntVar()                                                                                               # Radio buttons
+        rad_var = tk.IntVar()  # Radio buttons
         rad_var.set(0)
         tk.Radiobutton(bg="#3766D5", fg="black", variable=rad_var, value=0).place(x=480, y=270)
         tk.Label(text="Pursuing", bg="#3766D5", fg="white", font=("Arial", 14)).place(x=520, y=270)
@@ -48,7 +50,7 @@ class Main(tk.Frame):                                                           
         tk.Button(text=">", bg="green", bd=1, fg="white", font=("Arial", 14)).place(x=400, y=470)
 
 
-if __name__ == "__main__":                                                                                                  # Code starting
+if __name__ == "__main__":  # Code starting
     root = tk.Tk()
     app = Main(root)
     app.pack()
