@@ -10,7 +10,7 @@ class Main(tk.Frame):                                                           
         tk.Label(text="ПЗ-4", bg="#3766D5", fg="white", font=("Arial", 24)).place(x=20, y=20)
 
         tk.Label(bg="#3766D5", fg="white", font=("Arial", 14), text="Дано вещественное число A и целое число N ("   # Description
-                                                                    ">0). Используя один цикл, вывести все\n "
+                                                                    ">0). Используя один цикл, вывести всe\n "
                                                                     "целые "
                                                                     "степени числа A от 1 до N.").place(x=20, y=120)
 
