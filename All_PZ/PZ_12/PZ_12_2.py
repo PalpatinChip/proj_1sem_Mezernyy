@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-class Main(tk.Frame):
+class Main(tk.Frame):                                                                                                   # Main class
     def __init__(self, roottt):
         super().__init__(roottt)
 
@@ -9,7 +9,7 @@ class Main(tk.Frame):
 
         tk.Label(text="ПЗ-4", bg="#3766D5", fg="white", font=("Arial", 24)).place(x=20, y=20)
 
-        tk.Label(bg="#3766D5", fg="white", font=("Arial", 14), text="Дано вещественное число A и целое число N ("
+        tk.Label(bg="#3766D5", fg="white", font=("Arial", 14), text="Дано вещественное число A и целое число N ("   # Description
                                                                     ">0). Используя один цикл, вывести все\n "
                                                                     "целые "
                                                                     "степени числа A от 1 до N.").place(x=20, y=120)
@@ -37,7 +37,7 @@ class Main(tk.Frame):
         tk.Label(text="Рассчитать", bg="#3766D5", fg="white", font=("Arial", 14)).place(x=325, y=470)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":                                                                                          # Start
     root = tk.Tk()
     app = Main(root)
     app.pack()

@@ -25,23 +25,23 @@ class Main(tk.Frame):
         toolbar.pack(side=tk.TOP, fill=tk.X)
 
         self.btn_open_dialog = tk.Button(toolbar, text='Добавить запись', command=self.open_dialog, bg='#5da130', bd=0,
-                                         compound=tk.TOP)  # , image=self.add_img)
+                                         compound=tk.TOP)
         self.btn_open_dialog.pack(side=tk.LEFT)
 
         btn_edit_dialog = tk.Button(toolbar, text="Редактировать", command=self.open_update_dialog, bg='#5da130',
-                                    bd=0, compound=tk.TOP)  # , image=self.update_img)
+                                    bd=0, compound=tk.TOP) 
         btn_edit_dialog.pack(side=tk.LEFT)
 
         btn_delete = tk.Button(toolbar, text="Удалить запись", command=self.delete_records, bg='#5da130',
-                               bd=0, compound=tk.TOP)  # , image=self.delete_img)
+                               bd=0, compound=tk.TOP)
         btn_delete.pack(side=tk.LEFT)
 
         btn_search = tk.Button(toolbar, text="Поиск записи", command=self.open_search_dialog, bg='#5da130',
-                               bd=0, compound=tk.TOP)  # , image=self.search_img)
+                               bd=0, compound=tk.TOP)
         btn_search.pack(side=tk.LEFT)
 
         btn_refresh = tk.Button(toolbar, text="Обновить экран", command=self.view_records, bg='#5da130',
-                                bd=0, compound=tk.TOP)  # , image=self.refresh_img)
+                                bd=0, compound=tk.TOP)
         btn_refresh.pack(side=tk.LEFT)
 
         self.tree = ttk.Treeview(self, columns=(
